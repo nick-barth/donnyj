@@ -45,6 +45,7 @@ a {
 	max-width:500px;
 	box-sizing: border-box;
 	margin: auto;
+	padding: 1rem;
 }
 
 .donnyj__comments-title {
@@ -58,11 +59,10 @@ a {
 
 .donnyj__rw-sentence{
 	margin: 0;
-	padding-right:30px;
 }
 .donnyj__rw-words{
-	display: inline;
-	text-indent: 10px;
+	display: block;
+	padding-right: 3em;
 }
 .donnyj__rw-words-1 span{
 	position: absolute;
@@ -187,6 +187,17 @@ a {
 
 	.donnyj__comments {
 		margin:inherit;
+	}
+
+	.donnyj__rw-words{
+		display: inline;
+		text-indent: 10px;
+		padding-right: 0;
+	}
+
+	.donnyj__rw-sentence{
+		margin: 0;
+		padding-right:30px;
 	}
 
 }
