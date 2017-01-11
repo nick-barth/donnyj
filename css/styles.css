@@ -202,6 +202,33 @@ a {
 
 }
 
+ul.share-buttons{
+	list-style: none;
+	padding: 0;
+	position: absolute;
+    left: 0;
+    right: 0;
+	bottom:0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem; // Need a specific value to work
+}
+
+ul.share-buttons li{
+	display: inline;
+}
+
+ul.share-buttons .sr-only {
+	position: absolute;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0;
+	border: 0;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
