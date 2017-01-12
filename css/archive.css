@@ -1,0 +1,71 @@
+html, body {
+	   height: 100%;
+	   margin: 0;
+
+	   font-family: 'Open Sans', sans-serif;
+	   color: #FAEBD7;
+
+}
+
+a {
+	color: #812042;
+}
+
+.archive {
+	text-align:center;
+	background-color: #EC6158;
+	min-height:100%;
+	position:relative;
+	width:100%;
+	margin:auto;
+
+}
+
+.archive__content {
+	position: relative;
+}
+
+.archive__counter {
+	position:relative;
+
+}
+
+.archive__number {
+	font-size: 8rem;
+}
+
+.archive__source {
+	padding-top: 2rem;
+}
+
+.twitter-tweet{
+	margin:auto;
+}
+
+.archive__comments {
+	max-width:500px;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 1rem;
+	padding-bottom: 5rem;
+}
+
+.archive__comments-title {
+	padding-bottom:.5rem;
+}
+
+/*
+* Media Queries
+*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.archive__source-container {
+		margin:0;
+	}
+
+	.archive__comments {
+		margin:inherit;
+	}
+
+}
