@@ -25,6 +25,14 @@ a {
 	position: relative;
 }
 
+.archive__back {
+	padding-top:.5rem;
+}
+
+.archive__back a {
+	color: #FAEBD7;
+}
+
 .archive__counter {
 	position:relative;
 
