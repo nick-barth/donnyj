@@ -49,6 +49,11 @@ a {
 	margin:auto;
 }
 
+.archive__award {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
 .archive__comments {
 	max-width:500px;
 	box-sizing: border-box;
