@@ -16,7 +16,7 @@ twitterwidget {
 	margin:auto;
 }
 
-.archive {
+.donnyj {
 	text-align:center;
 	background-color: #EC6158;
 	min-height:100%;
@@ -26,27 +26,27 @@ twitterwidget {
 
 }
 
-.archive__content {
+.donnyj__content {
 	position: relative;
 }
 
-.archive__back {
+.donnyj__back {
 	padding-top:.5rem;
 }
 
-.archive__back a {
+.donnyj__back a {
 	color: #FAEBD7;
 }
 
-.archive__counter {
+.donnyj__counter {
 	position:relative;
 }
 
-.archive__number {
+.donnyj__number {
 	font-size: 8rem;
 }
 
-.archive__source {
+.donnyj__source {
 	padding-top: 2rem;
 }
 
@@ -54,12 +54,12 @@ twitterwidget {
 	margin:auto;
 }
 
-.archive__award {
+.donnyj__award {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
 
-.archive__comments {
+.donnyj__comments {
 	max-width:500px;
 	box-sizing: border-box;
 	margin: auto;
@@ -67,7 +67,7 @@ twitterwidget {
 	padding-bottom: 5rem;
 }
 
-.archive__comments-title {
+.donnyj__comments-title {
 	padding-bottom:.5rem;
 }
 
@@ -77,11 +77,11 @@ twitterwidget {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	.archive__source-container {
+	.donnyj__source-container {
 		margin:0;
 	}
 
-	.archive__comments {
+	.donnyj__comments {
 		margin:inherit;
 	}
 
